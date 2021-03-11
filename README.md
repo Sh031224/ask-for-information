@@ -1,5 +1,7 @@
 # Website
 
+[![travis](https://api.travis-ci.org/Sh031224/ask-for-information.svg?branch=master)](https://travis-ci.com/github/Sh031224/ask-for-information/)
+
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 ## Installation
