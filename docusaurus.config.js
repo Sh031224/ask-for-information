@@ -3,7 +3,7 @@ module.exports = {
   title: "My Site",
   tagline: "The tagline of my site",
   url: "https://sh031224.github.io",
-  baseUrl: "/ask-for-information",
+  baseUrl: "/ask-for-information/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
