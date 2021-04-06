@@ -5,33 +5,50 @@
  * and scoped locally.
  */
 
+:root {
+	--ifm-color-primary: #ff6060;
+	--ifm-color-primary-dark: #fd4848;
+	--ifm-color-primary-darker: #fd2e2e;
+	--ifm-color-primary-darkest: #ca1919;
+	--ifm-color-primary-light: #ff6e6e;
+	--ifm-color-primary-lighter: #ff7b7b;
+	--ifm-color-primary-lightest: #ff8888;
+
+	--ifm-font-size-base: 16px;
+	--ifm-code-font-size: 0.8rem;
+}
+
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+	padding: 4rem 0;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
 }
 
 @media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+	.heroBanner {
+		padding: 2rem;
+	}
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 2rem 0;
+	width: 100%;
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+	height: 200px;
+	width: 200px;
+}
+
+.heroBannerLogo {
+	max-width: 300px;
 }
