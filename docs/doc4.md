@@ -1,7 +1,6 @@
 ---
 id: doc4
 title: asdStyle Guide
-slug: /
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
