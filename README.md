@@ -1,35 +1,21 @@
-# Website
+# Ask-for-information
 
-[![travis](https://api.travis-ci.org/Sh031224/ask-for-information.svg?branch=master)](https://travis-ci.com/github/Sh031224/ask-for-information/)
+[![travis](https://api.travis-ci.com/Sh031224/ask-for-information.svg?branch=master)](https://travis-ci.com/github/Sh031224/ask-for-information/)
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+## 개요
 
-## Installation
+본 프로젝트는 많은 사람들이 직접 정보를 제공하는 문서를 작성하여 분야별로 기초 지식을 다듬거나 학습할 수 있고, 면접 후기 관련 내용도 다루어 특히 면접 때 큰 도움이 되었으면 하는 생각으로 제작하게 되었습니다.
 
-```console
-yarn install
-```
+> 기초적인 지식 뿐만 아니라 이때까지 겪었던 경험도 같이 전달함으로써 보다 신뢰성 있는 정보를 제공합니다.
 
-## Local Development
+## 기여자 목록
 
-```console
-yarn start
-```
+[기여하기](https://sh031224.github.io/ask-for-information/blog)
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+<a href="https://github.com/Sh031224/ask-for-information/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Sh031224/ask-for-information" />
+</a>
 
-## Build
+Made with [contributors-img](https://contrib.rocks).
 
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Built with Docusaurus.
