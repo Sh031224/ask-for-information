@@ -38,7 +38,7 @@ module.exports = {
 					title: "커뮤니티",
 					items: [
 						{
-							label: "기여하는 방법",
+							label: "시작하기",
 							href: "https://sh031224.github.io/ask-for-information/docs/"
 						},
 						{
@@ -56,7 +56,7 @@ module.exports = {
 						},
 						{
 							label: "GitHub",
-							href: "https://github.com/facebook/docusaurus"
+							href: "https://github.com/Sh031224/ask-for-information"
 						}
 					]
 				}

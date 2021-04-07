@@ -32,6 +32,8 @@ tags: [docusaurus, guide, markdown]
 	Edit this page
 </span> 를 클릭 시 해당 파일을 수정하는 <code>Github</code> 로 이동됩니다.
 
+`Github` 에서 `.md` 또는 `.mdx` 확장자에 맞게 문서를 수정하시면 됩니다.
+
 <!-- </p> -->
 
 ## 문서 생성
@@ -39,8 +41,8 @@ tags: [docusaurus, guide, markdown]
 ```
 ask-for-information
 ├─ docs
-│  └─ Category
-│     └─ Category2
+│  └─ category
+│     └─ category2
 │        └─ doc.md
 └─ sidebars.js
 ```
@@ -55,7 +57,74 @@ ask-for-information
 ```
 ask-for-information
 ├─ docs
-│  └─ Example
+│  └─ example
 │     └─ docs.md
 └─ sidebars.js
+```
+
+### 작성 방법
+
+확장자는 `.md` 또는 `.mdx` 로 작성 가능합니다.
+
+```markdown
+---
+id: (카테고리-파일이름으로 통일)
+title: (제목)
+---
+```
+
+파일의 제일 상단 부분에 해당 코드를 삽입해야합니다.
+또한 파일 이름 네이밍은 `snake case` 로 생성합니다.
+
+### sidebars.js
+
+좌측의 사이드바 관련은 `sidebars.js` 에서 추가하거나 수정해야합니다.
+
+카테고리 추가시
+
+```js
+{
+	type: "category",
+	label: "name",
+	items: ["name/name-example"]
+}
+```
+
+부분을 작성하여 카테고리를 추가 할 수 있습니다.
+중첩 카테고리 작성 시 `items` 부분에 위와 같은 코드를 한번 더 적으시면 됩니다.
+
+카테고리가 아닌 문서를 추가하기 위해서는
+
+ex) `docs/interview/frontend.md` 를 추가하려면 `items: ["interview/interview-frontend"]` 를 추가하면 됩니다.
+
+`"folder/docs'id"`
+
+```js
+module.export = {
+	docs: [
+		// 카테고리 없는 아이템
+		"example",
+		// 카테고리
+		{
+			type: "category",
+			label: "first",
+			items: [
+				// 아이템
+				"first/first-example",
+				// 카테고리
+				{
+					type: "category",
+					label: "second",
+					items: ["first/second/second-example"]
+				}
+			]
+		},
+		// 카테고리
+		{
+			type: "category",
+			label: "third",
+			items: ["third/third-example"]
+		}
+	]
+};
 ```
