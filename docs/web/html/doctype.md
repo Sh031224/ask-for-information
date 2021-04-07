@@ -5,7 +5,15 @@ title: DOCTYPE 선언
 
 ## DOCTYPE 이란
 
-`doctype` 선언은 어떤 버전의 HTML 문서로 작성했는지 브라우저에게 알려주는 것으로 웹 브라우저가 내용을 올바르게 출력하도록 도와주는 역할을 합니다.
+`DOCTYPE` 은 document type의 약어입니다. `DOCTYPE` 은 항상 DTD(Document Type Definition)와 관련됩니다.
+
+`DTD` 는 특정 문서가 어떻게 구성되어야 하는지 정의합니다(예시: button은 span을 포함할 수 있지만, div는 그럴 수 없다.)
+
+반면, `DOCTYPE` 은 문서가 대략 존중할만한 `DTD` 를 선언합니다. (예시: 이 문서는 HTML DTD를 존중한다.)
+
+웹 페이지의는 `DOCTYPE` 선언이 필요합니다. 유저 에이전트에게 문서가 존중하는 HTML 사양의 버전을 알리는데 사용됩니다.
+
+유저 에이전트가 올바른 **DOCTYPE**을 인식하면, 문서를 읽는데에 DOCTYPE과 일치하는 `no-quirks mode`를 트리거합니다. 유저 에이전트가 올바른 DOCTYPE을 인식하지 못하면, `quirks mode`를 트리거합니다.
 
 ```html
 <!DOCTYPE html>
