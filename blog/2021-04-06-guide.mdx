@@ -8,6 +8,12 @@ author_image_url: https://avatars.githubusercontent.com/u/51149996?s=48&v=4
 tags: [docusaurus, guide, markdown]
 ---
 
+이 프로젝트에 누구나 기여할 수 있습니다.
+
+## 문서 수정
+
+<!-- <p style={{ display: "flex", alignItems: "center" }}> -->
+
 <span>
 	<svg
 		fill="currentColor"
@@ -24,5 +30,32 @@ tags: [docusaurus, guide, markdown]
 		</g>
 	</svg>
 	Edit this page
-</span>
-를 클릭 시 해당 파일을 수정하는 <code>Github</code> 로 이동됩니다.
+</span> 를 클릭 시 해당 파일을 수정하는 <code>Github</code> 로 이동됩니다.
+
+<!-- </p> -->
+
+## 문서 생성
+
+```
+ask-for-information
+├─ docs
+│  └─ Category
+│     └─ Category2
+│        └─ doc.md
+└─ sidebars.js
+```
+
+우리가 주의깊게 살펴봐야 할 부분은 <code>docs</code> 와 <code>sidebars.js</code> 입니다.
+기본적으로 모든 문서는 <code>docs</code> 폴더에 있습니다.
+
+또한 문서에 카테고리가 있을 경우 카테고리 이름에 해당하는 폴더를 생성해야합니다.
+
+### 예시
+
+```
+ask-for-information
+├─ docs
+│  └─ Example
+│     └─ docs.md
+└─ sidebars.js
+```
