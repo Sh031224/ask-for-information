@@ -3,12 +3,12 @@ module.exports = {
 		{
 			type: "category",
 			label: "시작하기",
-			items: ["start/start"]
+			items: ["start/start-start"]
 		},
 		{
 			type: "category",
 			label: "면접 질문",
-			items: ["interview/frontend"]
+			items: ["interview/interview-frontend", "interview/interview-android"]
 		},
 		{
 			type: "category",
