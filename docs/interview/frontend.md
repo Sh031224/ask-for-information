@@ -1,5 +1,5 @@
 ---
-id: frontend
+id: interview-frontend
 title: 프론트엔드
 ---
 
