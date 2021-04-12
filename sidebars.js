@@ -8,7 +8,7 @@ module.exports = {
 		{
 			type: "category",
 			label: "면접 질문",
-			items: ["interview/interview-frontend", "interview/interview-android"]
+			items: ["interview/interview-frontend", "interview/interview-backend", "interview/interview-android"]
 		},
 		{
 			type: "category",

@@ -6,10 +6,6 @@ module.exports = {
 	baseUrl: "/ask-for-information/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
-	i18n: {
-		defaultLocale: "ko",
-		locales: ["ko"]
-	},
 	favicon: "img/favicon.ico",
 	organizationName: "Sh031224", // Usually your GitHub org/user name.
 	projectName: "ask-for-information", // Usually your repo name.
