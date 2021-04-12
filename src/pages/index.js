@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 const features = [
 	{
 		title: "기초부터 천천히",
-		imageUrl: "img/undraw_docusaurus_mountain.svg",
+		imageUrl: "img/undraw_stepping_up_g6oo.svg",
 		description: (
 			<>
 				<code>ask-for-information</code> 을 통하여 여러 언어 / 프레임워크의 기초부터 천천히 쌓을 수 있습니다.
@@ -18,7 +18,7 @@ const features = [
 	},
 	{
 		title: "모두 참여 가능",
-		imageUrl: "img/undraw_docusaurus_tree.svg",
+		imageUrl: "img/undraw_building_websites_i78t.svg",
 		description: (
 			<>
 				누구나 이 프로젝트에 <code>Github</code> 를 통하여 기여할 수 있습니다.
@@ -27,7 +27,7 @@ const features = [
 	},
 	{
 		title: "경험 전달",
-		imageUrl: "img/undraw_docusaurus_react.svg",
+		imageUrl: "img/undraw_online_connection_6778.svg",
 		description: <>기초적인 지식 뿐만아니라 이때까지 겪었던 경험도 같이 전달함으로써 보다 신뢰성 있는 정보를 제공합니다.</>
 	}
 ];

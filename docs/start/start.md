@@ -1,5 +1,5 @@
 ---
-id: start
+id: start-start
 title: 소개
 slug: /
 ---

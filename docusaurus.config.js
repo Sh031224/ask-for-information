@@ -39,7 +39,7 @@ module.exports = {
 					items: [
 						{
 							label: "시작하기",
-							href: "https://sh031224.github.io/ask-for-information/docs/"
+							to: "docs"
 						},
 						{
 							label: "건의사항 및 이슈",
