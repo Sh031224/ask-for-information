@@ -72,7 +72,7 @@ export default function Home() {
         <meta name="twitter:description" content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다." />
         <meta name="twitter:image" content="https://sh031224.github.io/ask-for-information/img/undraw_building_websites_i78t.svg" />
       </Head>
-      <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+      <Layout title={`${siteConfig.title}`}>
         <header className={clsx("hero", styles.heroBanner)}>
           <div className="container">
             <img className={clsx(styles.heroBannerLogo, "margin-vert--md")} src={useBaseUrl("img/logo.svg")} />
