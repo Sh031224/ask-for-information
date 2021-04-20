@@ -55,6 +55,7 @@ export default function Home() {
     <>
       <Head>
         <title>Ask for information</title>
+        <meta name="google-site-verification" content="bjPqT8541k9nfat3ud060DoXBi0gYi9hDB6yuvKPCW0" />
         <meta name="description" content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다." />
         <meta property="article:author" content="https://www.facebook.com/profile.php?id=100048700034135" />
         <meta property="article:pc_service_home" content="https://sh031224.github.io/ask-for-information/" />
