@@ -6,49 +6,49 @@
  */
 
 :root {
-	--ifm-color-primary: #ff6060;
-	--ifm-color-primary-dark: #ff3d3d;
-	--ifm-color-primary-darker: #ff2b2b;
-	--ifm-color-primary-darkest: #f60000;
-	--ifm-color-primary-light: #ff8383;
-	--ifm-color-primary-lighter: #ff9595;
-	--ifm-color-primary-lightest: #ffc9c9;
+  --ifm-color-primary: #ff6060;
+  --ifm-color-primary-dark: #ff3d3d;
+  --ifm-color-primary-darker: #ff2b2b;
+  --ifm-color-primary-darkest: #f60000;
+  --ifm-color-primary-light: #ff8383;
+  --ifm-color-primary-lighter: #ff9595;
+  --ifm-color-primary-lightest: #ffc9c9;
 
-	--ifm-font-size-base: 16px;
-	--ifm-code-font-size: 0.8rem;
+  --ifm-font-size-base: 16px;
+  --ifm-code-font-size: 0.8rem;
 }
 
 .heroBanner {
-	padding: 4rem 0;
-	text-align: center;
-	position: relative;
-	overflow: hidden;
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 966px) {
-	.heroBanner {
-		padding: 2rem;
-	}
+  .heroBanner {
+    padding: 2rem;
+  }
 }
 
 .buttons {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .features {
-	display: flex;
-	align-items: center;
-	padding: 2rem 0;
-	width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
 }
 
 .featureImage {
-	height: 200px;
-	width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 .heroBannerLogo {
-	max-width: 300px;
+  max-width: 300px;
 }
