@@ -55,7 +55,7 @@ export default function Home() {
     <>
       <Head>
         <title>Ask for information</title>
-        <meta name="description" content="모두 함께 만들어가는 코딩 지식" />
+        <meta name="description" content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다." />
         <meta property="article:author" content="https://www.facebook.com/profile.php?id=100048700034135" />
         <meta property="article:pc_service_home" content="https://sh031224.github.io/ask-for-information/" />
         <meta property="article:mobile_service_home" content="https://sh031224.github.io/ask-for-information/" />
@@ -63,12 +63,12 @@ export default function Home() {
         <meta property="og:site_name" content="Ask-for-information" />
         <meta property="og:title" content="Ask-for-information" />
         <meta property="og:url" content="https://sh031224.github.io/ask-for-information/" />
-        <meta property="og:description" content="모두 함께 만들어가는 코딩 지식" />
+        <meta property="og:description" content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다." />
         <meta property="og:image" content="https://sh031224.github.io/ask-for-information/img/undraw_building_websites_i78t.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Ask-for-information" />
         <meta name="twitter:url" content="https://sh031224.github.io/ask-for-information/" />
-        <meta name="twitter:description" content="모두 함께 만들어가는 코딩 지식" />
+        <meta name="twitter:description" content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다." />
         <meta name="twitter:image" content="https://sh031224.github.io/ask-for-information/img/undraw_building_websites_i78t.svg" />
       </Head>
       <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
