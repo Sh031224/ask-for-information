@@ -15,7 +15,7 @@ slug: /
 [기여하기](https://sh031224.github.io/ask-for-information/blog)
 
 <a href="https://github.com/Sh031224/ask-for-information/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Sh031224/ask-for-information" />
+  <img src="https://contrib.rocks/image?repo=Sh031224/ask-for-information" alt="contributors" />
 </a>
 
 Made with [contributors-img](https://contrib.rocks).
