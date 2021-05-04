@@ -10,6 +10,11 @@ module.exports = {
   organizationName: "Sh031224", // Usually your GitHub org/user name.
   projectName: "ask-for-information", // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: "e845f60dd2cbe598ed83871f0efa10fb",
+      indexName: "ask-for-information",
+      appId: "KKHBEPUL5Q"
+    },
     navbar: {
       title: "Ask-for-information",
       logo: {
@@ -69,6 +74,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          showLastUpdateTime: true,
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/Sh031224/ask-for-information/edit/master/"
