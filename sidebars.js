@@ -8,7 +8,11 @@ module.exports = {
     {
       type: "category",
       label: "면접 질문",
-      items: ["interview/interview-frontend", "interview/interview-backend", "interview/interview-android"]
+      items: [
+        "interview/interview-frontend",
+        "interview/interview-backend",
+        "interview/interview-android"
+      ]
     },
     {
       type: "category",
@@ -17,7 +21,11 @@ module.exports = {
         {
           type: "category",
           label: "HTML",
-          items: ["web/html/web-html-doctype"]
+          items: [
+            "web/html/web-html-structure",
+            "web/html/web-html-doctype",
+            "web/html/web-html-element"
+          ]
         }
       ]
     }
