@@ -1,4 +1,6 @@
 language: node_js
+services:
+  - docker
 node_js:
   - "12"
 branches:
@@ -6,8 +8,12 @@ branches:
     - master
 cache:
   yarn: true
+before_install:
+  - docker pull algolia/docsearch-scraper
 script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
   - yarn && GIT_USER="${GH_NAME}" yarn deploy
+  - cat .env.example | envsubst > .env
+  - docker run -it --env-file=.env -e "CONFIG=$(cat config.json | jq -r tostring)" algolia/docsearch-scraper
