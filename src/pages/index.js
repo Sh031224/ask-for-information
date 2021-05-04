@@ -13,7 +13,8 @@ const features = [
     imageUrl: "img/undraw_stepping_up_g6oo.svg",
     description: (
       <>
-        <code>ask-for-information</code> 을 통하여 여러 언어 / 프레임워크의 기초부터 천천히 쌓을 수 있습니다.
+        <code>ask-for-information</code> 을 통하여 여러 언어 / 프레임워크의 기초부터 천천히 쌓을 수
+        있습니다.
       </>
     )
   },
@@ -29,7 +30,12 @@ const features = [
   {
     title: "경험 전달",
     imageUrl: "img/undraw_online_connection_6778.svg",
-    description: <>기초적인 지식 뿐만아니라 이때까지 겪었던 경험도 같이 전달함으로써 보다 신뢰성 있는 정보를 제공합니다.</>
+    description: (
+      <>
+        기초적인 지식 뿐만아니라 이때까지 겪었던 경험도 같이 전달함으로써 보다 신뢰성 있는 정보를
+        제공합니다.
+      </>
+    )
   }
 ];
 
@@ -55,31 +61,65 @@ export default function Home() {
     <>
       <Head>
         <title>Ask for information</title>
-        <meta name="google-site-verification" content="bjPqT8541k9nfat3ud060DoXBi0gYi9hDB6yuvKPCW0" />
-        <meta name="description" content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다." />
-        <meta property="article:author" content="https://www.facebook.com/profile.php?id=100048700034135" />
-        <meta property="article:pc_service_home" content="https://sh031224.github.io/ask-for-information/" />
-        <meta property="article:mobile_service_home" content="https://sh031224.github.io/ask-for-information/" />
+        <meta
+          name="google-site-verification"
+          content="bjPqT8541k9nfat3ud060DoXBi0gYi9hDB6yuvKPCW0"
+        />
+        <meta
+          name="description"
+          content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다."
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/profile.php?id=100048700034135"
+        />
+        <meta
+          property="article:pc_service_home"
+          content="https://sh031224.github.io/ask-for-information/"
+        />
+        <meta
+          property="article:mobile_service_home"
+          content="https://sh031224.github.io/ask-for-information/"
+        />
         <meta name="by" content="Sh031224" />
         <meta property="og:site_name" content="Ask-for-information" />
         <meta property="og:title" content="Ask-for-information" />
         <meta property="og:url" content="https://sh031224.github.io/ask-for-information/" />
-        <meta property="og:description" content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다." />
-        <meta property="og:image" content="https://sh031224.github.io/ask-for-information/img/undraw_building_websites_i78t.svg" />
+        <meta
+          property="og:description"
+          content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다."
+        />
+        <meta
+          property="og:image"
+          content="https://sh031224.github.io/ask-for-information/img/undraw_building_websites_i78t.svg"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Ask-for-information" />
         <meta name="twitter:url" content="https://sh031224.github.io/ask-for-information/" />
-        <meta name="twitter:description" content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다." />
-        <meta name="twitter:image" content="https://sh031224.github.io/ask-for-information/img/undraw_building_websites_i78t.svg" />
+        <meta
+          name="twitter:description"
+          content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sh031224.github.io/ask-for-information/img/undraw_building_websites_i78t.svg"
+        />
       </Head>
       <Layout title={`${siteConfig.title}`}>
         <header className={clsx("hero", styles.heroBanner)}>
           <div className="container">
-            <img className={clsx(styles.heroBannerLogo, "margin-vert--md")} src={useBaseUrl("img/logo.svg")} />
+            <img
+              className={clsx(styles.heroBannerLogo, "margin-vert--md")}
+              src={useBaseUrl("img/logo.svg")}
+              alt={siteConfig.title}
+            />
             <h1 className="hero__title">{siteConfig.title}</h1>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
             <div className={styles.buttons}>
-              <Link className={clsx("button button--primary button--lg", styles.getStarted)} to={useBaseUrl("docs/")}>
+              <Link
+                className={clsx("button button--primary button--lg", styles.getStarted)}
+                to={useBaseUrl("docs/")}
+              >
                 문서 확인하기 →
               </Link>
             </div>
