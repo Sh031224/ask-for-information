@@ -203,3 +203,36 @@ title: 프론트엔드
 - 알고 있는 자료구조를 말해보아라
 - JS에서 linkedlist 구현하는 방법에 대해 설명해 보아라
 - 팀내에서 역할은 무엇이었고 어떤 것을 진행했는지 설명해 보아라
+
+
+## 엔젤스윙
+
+:::note
+면접시간: 1시간
+
+사전 과제를 본 이후 면접을 봄
+:::
+
+- 자기소개
+- 많은 회사 중 왜 우리 회사?
+- 회사에게 바라는 점
+- custom hooks의 장단점
+- react books 규칙
+- MobX 단점
+- MobX를 많이 쓴 이유
+- redux 장점
+- 서버 사이드 렌더링 도구들 설명
+- Nextjs의 장점
+- 성능 최적화 경험
+- <></>와 React.Fragment 차이
+- useMemo, memo, useCallback 쓰는 기준
+- 주로 사용하는 프로젝트 구조
+- model로 따로 파일 빼놓은 이유
+- dependencies와 devDependencies 차이
+- cra 말고 webpack 설정 경험
+- javascript에서의 scope
+- javascript에서의 this
+- 마지막 협업 프로젝트 좋았던 점/ 아쉬운 점
+- 블로그 글을 작성할 때 기준 / 레퍼런스 사이트
+- 전역 상태관리 라이브러리 장점
+
