@@ -1,0 +1,1 @@
+(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[885],{3380:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/ask-for-information/blog/tags","slug":"markdown","name":"markdown","count":2,"permalink":"/ask-for-information/blog/tags/markdown"}')}}]);

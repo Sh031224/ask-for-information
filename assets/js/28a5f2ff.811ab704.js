@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{81:function(o){o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\uae30\uc5ec\ub97c \uc704\ud55c \uac00\uc774\ub4dc","permalink":"/ask-for-information/blog/guide"},{"title":"\ub9c8\ud06c\ub2e4\uc6b4 \uc2a4\ud0c0\uc77c","permalink":"/ask-for-information/blog/style"}]}')}}]);
