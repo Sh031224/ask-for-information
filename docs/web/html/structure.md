@@ -18,7 +18,7 @@ title: HTML 기본 구조
 
 ## !DOCTYPE html
 
-[DOCTYPE 선언](/docs/web/html/web-html-doctype#doctype-이란) 으로, 현재 문서가 `HTML5` 문서임을 명시합니다.
+[DOCTYPE 선언](/docs/web/html/doctype#doctype-이란) 으로, 현재 문서가 `HTML5` 문서임을 명시합니다.
 
 ## html
 
