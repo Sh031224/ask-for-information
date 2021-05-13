@@ -17,6 +17,10 @@
   --ifm-code-font-size: 95%;
 }
 
+:root[data-theme="dark"] {
+  --ifm-color-secondary: rgb(148, 148, 148);
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
