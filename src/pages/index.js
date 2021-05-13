@@ -9,12 +9,11 @@ import Head from "@docusaurus/Head";
 
 const features = [
   {
-    title: "기초부터 천천히",
+    title: "지식 향상",
     imageUrl: "img/undraw_stepping_up_g6oo.svg",
     description: (
       <>
-        <code>ask-for-information</code> 을 통하여 여러 언어 / 프레임워크의 기초부터 천천히 쌓을 수
-        있습니다.
+        <code>ask-for-information</code> 으로 코딩 지식 또는 학교에 대한 정보를 학습할 수 있습니다.
       </>
     )
   },
@@ -23,7 +22,8 @@ const features = [
     imageUrl: "img/undraw_building_websites_i78t.svg",
     description: (
       <>
-        누구나 이 프로젝트에 <code>Github</code> 를 통하여 기여할 수 있습니다.
+        누구나 대구소프트웨어마이스터고등학교를 거쳐갔다면, 이 프로젝트에 <code>Github</code> 를
+        통하여 기여할 수 있습니다.
       </>
     )
   },
@@ -32,8 +32,8 @@ const features = [
     imageUrl: "img/undraw_online_connection_6778.svg",
     description: (
       <>
-        기초적인 지식 뿐만아니라 이때까지 겪었던 경험도 같이 전달함으로써 보다 신뢰성 있는 정보를
-        제공합니다.
+        실제로 경험한 내용만을 전달하기 때문에 보다 신뢰성 있는 정보를 제공합니다. 또한 신입생
+        입시에도 필요한 자료를 공유합니다.
       </>
     )
   }
@@ -62,12 +62,8 @@ export default function Home() {
       <Head>
         <title>Ask for information</title>
         <meta
-          name="google-site-verification"
-          content="bjPqT8541k9nfat3ud060DoXBi0gYi9hDB6yuvKPCW0"
-        />
-        <meta
           name="description"
-          content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다."
+          content="대구소프트웨어마이스터고등학교 학생들의 위키백과 서비스입니다."
         />
         <meta
           property="article:author"
@@ -87,18 +83,18 @@ export default function Home() {
         <meta property="og:url" content="https://sh031224.github.io/ask-for-information/" />
         <meta
           property="og:description"
-          content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다."
+          content="대구소프트웨어마이스터고등학교 학생들의 위키백과 서비스입니다."
         />
         <meta
           property="og:image"
-          content="https://sh031224.github.io/ask-for-information/img/undraw_building_websites_i78t.svg"
+          content="https://sh031224.github.io/ask-for-information/img/undraw_builing_websites_i78t.svg"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Ask-for-information" />
         <meta name="twitter:url" content="https://sh031224.github.io/ask-for-information/" />
         <meta
           name="twitter:description"
-          content="면접 자료 및 코딩에 관련된 기초적인 자료들을 학습할 수 있는 공간입니다."
+          content="대구소프트웨어마이스터고등학교 학생들의 위키백과 서비스입니다."
         />
         <meta
           name="twitter:image"
