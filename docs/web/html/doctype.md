@@ -1,5 +1,5 @@
 ---
-id: web-html-doctype
+id: doctype
 title: DOCTYPE 선언
 ---
 
@@ -18,11 +18,11 @@ title: DOCTYPE 선언
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8" />
-		<title>제목</title>
-	</head>
-	<body></body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>제목</title>
+  </head>
+  <body></body>
 </html>
 ```
 

@@ -1,5 +1,5 @@
 ---
-id: web-html-structure
+id: structure
 title: HTML 기본 구조
 ---
 

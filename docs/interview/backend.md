@@ -1,5 +1,5 @@
 ---
-id: interview-backend
+id: backend
 title: 백엔드
 ---
 

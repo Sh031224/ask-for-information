@@ -1,5 +1,5 @@
 ---
-id: web-html-element
+id: element
 title: HTML 요소 구조
 ---
 
@@ -32,7 +32,7 @@ Content
 
 ```html
 ...
-<input type="text">
+<input type="text" />
 ...
 ```
 

@@ -8,26 +8,26 @@ author_image_url: https://avatars.githubusercontent.com/u/51149996?s=48&v=4
 tags: [docusaurus, guide, markdown]
 ---
 
-이 프로젝트에 누구나 기여할 수 있습니다.
+이 프로젝트에 대구소프트웨어마이스터고등학스를 거쳐갔다면 누구나 기여할 수 있습니다.
 
 ## 문서 수정
 
 <span>
-	<svg
-		fill="currentColor"
-		height="1.2em"
-		width="1.2em"
-		preserveAspectRatio="xMidYMid meet"
-		role="img"
-		viewBox="0 0 40 40"
-		class="iconEdit_node_modules-@docusaurus-theme-classic-lib-next-theme-IconEdit-"
-		aria-label="Edit page"
-	>
-		<g>
-			<path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path>
-		</g>
-	</svg>
-	Edit this page
+  <svg
+    fill="currentColor"
+    height="1.2em"
+    width="1.2em"
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    viewBox="0 0 40 40"
+    class="iconEdit_node_modules-@docusaurus-theme-classic-lib-next-theme-IconEdit-"
+    aria-label="Edit page"
+  >
+    <g>
+      <path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path>
+    </g>
+  </svg>
+  Edit this page
 </span> 를 클릭 시 해당 파일을 수정하는 <code>Github</code> 로 이동됩니다.
 
 `Github` 에서 `.md` 또는 `.mdx` 확장자에 맞게 문서를 수정하시면 됩니다.
@@ -66,7 +66,7 @@ ask-for-information
 
 ```markdown
 ---
-id: (카테고리-파일이름으로 통일)
+id: (파일이름으로 통일)
 title: (제목)
 ---
 ```
@@ -84,7 +84,7 @@ title: (제목)
 {
 	type: "category",
 	label: "name",
-	items: ["name/name-example"]
+	items: ["name/example"]
 }
 ```
 
@@ -93,36 +93,36 @@ title: (제목)
 
 카테고리가 아닌 문서를 추가하기 위해서는
 
-ex) `docs/interview/frontend.md` 를 추가하려면 `items: ["interview/interview-frontend"]` 를 추가하면 됩니다.
+ex) `docs/interview/frontend.md` 를 추가하려면 `items: ["interview/frontend"]` 를 추가하면 됩니다.
 
 `"folder/docs'id"`
 
 ```js
 module.export = {
-	docs: [
-		// 카테고리 없는 아이템
-		"example",
-		// 카테고리
-		{
-			type: "category",
-			label: "first",
-			items: [
-				// 아이템
-				"first/first-example",
-				// 카테고리
-				{
-					type: "category",
-					label: "second",
-					items: ["first/second/second-example"]
-				}
-			]
-		},
-		// 카테고리
-		{
-			type: "category",
-			label: "third",
-			items: ["third/third-example"]
-		}
-	]
+  docs: [
+    // 카테고리 없는 아이템
+    "example",
+    // 카테고리
+    {
+      type: "category",
+      label: "first",
+      items: [
+        // 아이템
+        "first-example",
+        // 카테고리
+        {
+          type: "category",
+          label: "second",
+          items: ["first/second/example"]
+        }
+      ]
+    },
+    // 카테고리
+    {
+      type: "category",
+      label: "third",
+      items: ["third/example"]
+    }
+  ]
 };
 ```

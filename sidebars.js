@@ -3,16 +3,17 @@ module.exports = {
     {
       type: "category",
       label: "시작하기",
-      items: ["start/start-start"]
+      items: ["start/start"]
+    },
+    {
+      type: "category",
+      label: "학교 정보",
+      items: ["school/introduce"]
     },
     {
       type: "category",
       label: "면접 질문",
-      items: [
-        "interview/interview-frontend",
-        "interview/interview-backend",
-        "interview/interview-android"
-      ]
+      items: ["interview/frontend", "interview/backend", "interview/android"]
     },
     {
       type: "category",
@@ -21,11 +22,7 @@ module.exports = {
         {
           type: "category",
           label: "HTML",
-          items: [
-            "web/html/web-html-structure",
-            "web/html/web-html-doctype",
-            "web/html/web-html-element"
-          ]
+          items: ["web/html/structure", "web/html/doctype", "web/html/element"]
         }
       ]
     }
