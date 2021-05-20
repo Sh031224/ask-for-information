@@ -42,3 +42,31 @@ title: 백엔드
 - Session의 장/단점
 - HTTPS에 대해 설명하라, HTTPS의 인증방식은?
 - OAuth의 인증방식을 설명해보아라
+
+## FLO
+
+:::note
+면접시간: 1시간
+
+총 질문 중 기억나는 질문 절반만 작성
+:::
+
+- Java 메인 클래스의 A메서드에서 제정민이라는 인스턴스를 생성하고 다른 함수에 넘겨줬을 때 그 함수에서 제정민 인스턴스를 다른 인스턴스로 변경할 경우 리턴하지 않아도 메인 클래스의 A메서드에 영향을 미치는가
+- Java final의 의미와 사용하는 경우
+- Java Checked Exception vs Unchecked Exception(Runtime) 차이
+- Java Spring에서 @Transactional 속성과 동작 방식
+- JavaScript 익명 함수와 클로저의 차이점
+- JavaScript 자유 변수란
+- JavaScript 일급 객체란
+- GO 장점인 동시성, 병렬형 프로그래밍을 이용해 개발했는지
+- GO 인터페이스 타입이 자바 오브젝트처럼 동작할 수 있는 이유
+- GO 구현을 목적으로 리시버 메서드를 생성할 때 포인터로 받을 때와 값으로 받을 때 나누는 기준
+- GO Buffered channel vs Unbuffered channel 퍼포먼스 면에서 차이점
+- GO 채널을 통해 값을 주고받을 때 고루틴이 어떻게 상호작용 하는지 동작 원리 
+- Database 카디널리티에 대해 설명
+- Database 1:N 관계 테이블에서 1이 Optional일 경우와 Optional이 아닐 경우 차이
+- Database ERD에서 실선, 점선, 그리고 까마귀발과 고리 등 모든 용어의 의미와 차이점
+- Database Join 중 한 가지를 구체적으로 설명 
+- Docker와 Docker Compose 사용한 이유
+- Docker Service 삭제하는 법
+- GO, JAVA, PYTHON를 사용하는 이유(장점)을 각각 구체적으로 설명
