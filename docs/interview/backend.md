@@ -79,6 +79,7 @@ title: 백엔드
 
 - GO언어를 시작하게 된 계기
 - Spring IOC & DI & AOP란
+- @Autowired를 사용하여 의존성 주입을 하였을 때 일어날 수 있는 문제점과 그를 해결할 수 있는 방안
 - Spring AOP에서 Pointcut과 JoinPoint 등 각 용어들의 동작 방식에 대해 설명
 - Java Reflection의 동작 원리를 설명
 - 만약 랜덤채팅 서비스에 사용자가 많아져 1대의 서버로 동작할 수 없게 됐을 때 어떻게 할 건지 구체적으로 설명
