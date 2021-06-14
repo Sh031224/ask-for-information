@@ -25,6 +25,17 @@ module.exports = {
           items: ["web/html/structure", "web/html/doctype", "web/html/element"]
         }
       ]
+    },
+    {
+      type: "category",
+      label: "iOS",
+      items: [
+        {
+          type: "category",
+          label: "Swift",
+          items: ["ios/swift/arc"]
+        }
+      ]
     }
   ]
 };
