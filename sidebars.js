@@ -33,7 +33,7 @@ module.exports = {
         {
           type: "category",
           label: "Swift",
-          items: ["ios/swift/arc"]
+          items: ["ios/swift/arc", "ios/swift/closure"]
         }
       ]
     }
