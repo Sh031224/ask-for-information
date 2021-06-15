@@ -10,6 +10,9 @@ module.exports = {
   organizationName: "Sh031224", // Usually your GitHub org/user name.
   projectName: "ask-for-information", // Usually your repo name.
   themeConfig: {
+    prism: {
+      additionalLanguages: ["swift"]
+    },
     algolia: {
       apiKey: "e845f60dd2cbe598ed83871f0efa10fb",
       indexName: "ask-for-information",
