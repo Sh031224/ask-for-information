@@ -96,8 +96,8 @@ reversed = names.sorted(by: {
 4. 연산자 함수
     - 클로저는 매개변수의 타입과 반환 타입이 연산자를 구현한 함수의 모양과 동일하다면 연산자만 표기하더라도 알아서 연산하고 반환
     - 연산자는 일종의 함수
-    - 연산자 정의 == public func ><T : Comparable>(lhs: T, rhs: T) -> Bool
-    - 연산자 함수를 클로저의 역활로 사용
+    - 연산자 정의 == ```public func<T : Comparable>(lhs: T, rhs: T) -> Bool```
+    - 연산자 함수를 클로저의 역할로 사용
 
 ```swift
 reversed = names.sorted(by: >)
