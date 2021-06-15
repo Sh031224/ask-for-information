@@ -13,7 +13,7 @@ module.exports = {
     {
       type: "category",
       label: "면접 질문",
-      items: ["interview/frontend", "interview/backend", "interview/android"]
+      items: ["interview/frontend", "interview/backend", "interview/android", "interview/ios"]
     },
     {
       type: "category",
