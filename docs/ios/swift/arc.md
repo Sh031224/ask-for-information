@@ -25,3 +25,45 @@ title: ARC(Automatic Reference Counting)
         - Unowned(미소유 참조)
             - nil이 될수가 없음 → 옵셔널타입 X
             - 해제된 메모리 영역을 접근하지 않는다는 확실한 경우에만 사용
+
+### ARC 코드 예시
+
+`Person`
+``` swift
+class Person {
+    let name: String
+    init(name: String) {
+        self.name = name
+        println("\(name) is being initialized")
+    }
+
+    deinit {
+        println("\(name) is being deinitialized")
+    }
+}
+```
+
+``` swift
+// Person 클래스 타입을 갖는 reference 변수 3개를 선언. 모두 옵셔널 변수이므로 초기값은 nil을 갖고 있습니다.
+var reference1: Person?
+var reference2: Person?
+var reference3: Person?
+
+//reference1 변수에 Person 인스턴스 생성하여 참조하게됩니다.
+reference1 = Person(name: "John Appleseed")
+
+//나머지 두 변수를 reference1를 참조하게 합니다.
+reference2 = reference1
+reference3 = reference1
+
+/*이시점의 인스턴스에 대한 참조 횟수는 3이된다. 그런 후 reference1, reference2 참조 해지합니다.
+그렇게 되면 Person 인스턴스에 대한 참조 횟수는 아직 1이어서 Person 인스턴스는 해지되지 않습니다.*/
+reference1 = nil
+reference2 = nil
+
+/*
+Pesron 인스턴스를 참조하고 있는 나머지 변수 refernce3의 참조 해지하면
+더이상 Person 인스턴스를 참조하고 있는 것이 없으므로 ARC가 Person 인스턴스 메모리를 해지합니다.
+*/
+reference3 = nil
+```
