@@ -47,13 +47,11 @@ title: 백엔드
 
 :::note
 면접시간: 1시간
-
-총 질문 중 기억나는 질문 절반만 작성
 :::
 
-- Java 메인 클래스의 A메서드에서 제정민이라는 인스턴스를 생성하고 다른 함수에 넘겨줬을 때 그 함수에서 제정민 인스턴스를 다른 인스턴스로 변경할 경우 리턴하지 않아도 메인 클래스의 A메서드에 영향을 미치는가
+- Java 메인 클래스의 A메서드에서 인스턴스를 생성하고 다른 함수에 넘겨줬을 때 그 함수에서 해당 인스턴스를 다른 인스턴스로 변경할 경우 리턴하지 않아도 메인 클래스의 A메서드에 영향을 미치는가
 - Java final의 의미와 사용하는 경우
-- Java Checked Exception vs Unchecked Exception(Runtime) 차이
+- Java Checked Exception vs Unchecked Exception 차이
 - Java Spring에서 @Transactional 속성과 동작 방식
 - JavaScript 익명 함수와 클로저의 차이점
 - JavaScript 자유 변수란
@@ -65,11 +63,32 @@ title: 백엔드
 - GO 채널을 통해 값을 주고받을 때 고루틴이 어떻게 상호작용 하는지 동작 원리 
 - Database 카디널리티에 대해 설명
 - Database 1:N 관계 테이블에서 1이 Optional일 경우와 Optional이 아닐 경우 차이
-- Database ERD에서 실선, 점선, 그리고 까마귀발과 고리 등 모든 용어의 의미와 차이점
+- Database ERD에서 실선, 점선, 그리고 까마귀발과 고리의 의미와 차이점
 - Database Join 중 한 가지를 구체적으로 설명 
 - Docker와 Docker Compose 사용한 이유
 - Docker Service 삭제하는 법
-- GO, JAVA, PYTHON를 사용하는 이유(장점)을 각각 구체적으로 설명
+- GO, JAVA, PYTHON를 사용하는 이유을 각각 구체적으로 설명
+
+## FLO(2차)
+
+:::note
+면접시간: 2시간
+
+라이브 코딩 1시간 + 질의응답 1시간
+:::
+
+- @Controller와 @RestController의 차이점과 동작 원리
+- POST, PATCH method를 사용할 때 어떤 식으로 값을 받는가
+- RESTful API는 어떤 것이라고 생각하는지, 얼마나 관심있는지
+- Map<Integer, String> map = new HashMap<>() 에서 해시맵을 생성할 때 타입을 생략할 수 있는 이유는 무엇인가
+- HashMap은 thread-safe하지 않은데, 이를 thread-safe하게 만들어 보아라
+- Java에서 String은 메모리 구조 중 어디에 할당되는가 (+ Python, GO)
+- String을 사용하지 않고 StringBuilder을 사용한 이유는 무엇인가
+- Builder 패턴을 쓰는 이유 중 가장 중요한 이유는 무엇이라 생각하는지
+- Slf4j를 사용하여 로그를 출력할 수 있는 이유는 어딘가에 객체가 생성되서일 것인데, 그 때 생성된 객체를 확인하는 방법은 무엇인가
+- Java 메인 클래스의 A메서드에서 인스턴스를 생성하고 다른 함수에 넘겨줬을 때 그 함수에서 해당 인스턴스를 다른 인스턴스로 변경할 경우 리턴하지 않아도 메인 클래스의 A메서드에 영향을 미치는가
+- 클로저란 무엇인가
+- Java는 일급 객체인가(+ GO)
 
 ## 빅픽처인터렉티브
 
@@ -83,7 +102,7 @@ title: 백엔드
 - Spring AOP에서 Pointcut과 JoinPoint 등 각 용어들의 동작 방식에 대해 설명
 - Java Reflection의 동작 원리를 설명
 - 만약 랜덤채팅 서비스에 사용자가 많아져 1대의 서버로 동작할 수 없게 됐을 때 어떻게 할 건지 구체적으로 설명
-  - 서버를 많이 둔다고 했는데 클라이언트가 어떤 기준으로 무슨 서버에 요청해야 할 건지 어떻게 구분할지
-  - 핸들링 전용 서버를 만든다고 하였는데 그렇게 구현하면 같은 채팅방에 있는 유저에게 제대로 채팅이 전송될지 (메세지 큐 사용할 것이라고 답)
+- 서버를 많이 둔다면 클라이언트가 어떤 기준으로 무슨 서버에 요청해야 할 건지 어떻게 구분할지
+- 핸들링 전용 서버를 만든다면 같은 채팅방에 있는 유저에게 제대로 채팅이 전송될지 
 - MySQL로 선착순 100명에게 쿠폰을 나눠주려고 할 때 어떻게 할 건지 구체적으로 설명
-  - SERIALIZABLE을 사용하면 100번째 받는 사용자가 안 답답할지 (InnoDB 기본 격리수준인 REPETABLE READ를 사용하면 보완될 것 같다고 답)
+- SERIALIZABLE을 사용하여 나눠줄 경우 100번째 받는 사용자는 어떻게 처리될지 
