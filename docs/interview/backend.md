@@ -80,7 +80,7 @@ title: 백엔드
 - @Controller와 @RestController의 차이점과 동작 원리
 - POST, PATCH method를 사용할 때 어떤 식으로 값을 받는가
 - RESTful API는 어떤 것이라고 생각하는지, 얼마나 관심있는지
-- Map<Integer, String> map = new HashMap<>() 에서 해시맵을 생성할 때 타입을 생략할 수 있는 이유는 무엇인가
+- ```Map<Integer, String> map = new HashMap<>()``` 에서 해시맵을 생성할 때 타입을 생략할 수 있는 이유는 무엇인가
 - HashMap은 thread-safe하지 않은데, 이를 thread-safe하게 만들어 보아라
 - Java에서 String은 메모리 구조 중 어디에 할당되는가 (+ Python, GO)
 - String을 사용하지 않고 StringBuilder을 사용한 이유는 무엇인가
