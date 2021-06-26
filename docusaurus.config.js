@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Ask for Information",
-  tagline: "대구소프트웨어마이스터고등학고의 위키백과 서비스입니다.",
+  tagline: "대구소프트웨어마이스터고등학교의 위키백과 서비스입니다.",
   url: "https://sh031224.github.io",
   baseUrl: "/ask-for-information/",
   onBrokenLinks: "throw",
