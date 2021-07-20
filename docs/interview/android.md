@@ -139,3 +139,53 @@ title: 안드로이드
 - 이력서에 적혀있는 한줄소개 뜻과 그렇게 작성한 이유
 - 회사에 오게 된다면 서울에 살게될텐데 생활은 어떻게 할 것인가
 - 회사에 대해 궁금한 것
+
+## 여기어때컴퍼니
+
+:::note
+면접시간 : 60분
+
+지원바려 과제와 이력서를 참고하여 질문을 하기 때문에 실제 면접에서 질문이 다를 수 있습니다.
+일반 질문, 기술 질문 2가지 카테고리로 60분 동안 면접을 진행했습니다.
+:::
+
+#### 일반 질문
+- 간단한 자기소개
+- 팀 프로젝트 과정에서 어려웠던 점
+- 근무지가 서울인데 출 퇴근은 어떻게 할 것인지
+- 요즘 뭐하고 지내는지
+- 최신 기술은 보통 어떻게 접하는지
+- 왜 모바일 개발자가 꿈이었냐
+- 모바일 안에서도 왜 안드로이드냐
+- 특성화 고등학교를 선택한 이유는
+- 여기어때 앱을 사용해본 적이 있으면 앱 안에서 가장 인상 깊었던 것은
+- 글을 쓰거나, 코드를 작성할 때 중요한 것은
+- 릴리커버에서 어떤 일을 했나
+- 회사에 대해 궁금한 것
+
+#### 기술 질문
+- 과제 테스트 진행한 것을 설명해라 (라이브 설명 요청)
+- 페이징을 새로 사용해서 어려웠을텐데 어떻게 프로젝트에 도입했나
+- map 사용 대신 다른 내장함수를 사용해봐라 (라이브 코딩 요청)
+- Retrofit Response를 왜 사용했나
+- ViewModel의 onCleared는 언제 호출되냐
+- Event Wrapper 클래스를 사용하는 이유는 무엇이냐, 이를 통한 장점은 무엇인가
+- DI Module들이 모두 변수인데 왜 각각 파일을 나누었냐
+- Hilt를 사용하는 대신 왜 Koin을 사용했나
+- setValue와 postValue의 차이
+- enum 클래스에 대해서 설명해라
+- data 클래스와 일반 클래스는 무슨 차이가 있는가
+- Activity onResume과 Fragment onResume의 차이는
+- Android 4대 컴포넌트를 말하고 각각 설명해라
+- Android Context에 대해서 설명해라
+- ApplicationContext를 사용하면 좋지 않은 이유는
+- Serializable과 Parceable의 차이는
+- List, Map, Set의 차이를 각각 설명해라
+- RecyclerView의 동작 원리를 설명해라
+- RecyclerView Item의 재활용 과정은 무엇인가
+- RecyclerView에서는 아이템 재활용을 위해 무슨 패턴을 쓰고 있나
+- ConstraintLayout과 LinearLayout의 차이
+- LayoutInflater란 무엇인가
+- match-parent와 wrap-content를 각각 설명해라
+- RecyclerView의 layoutmanager 종류로는
+- Bluetooth 통신을 진행할 때 Service에서 왜 안했나
