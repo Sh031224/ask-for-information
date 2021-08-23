@@ -100,6 +100,7 @@ export default function Home() {
           name="twitter:image"
           content="https://sh031224.github.io/ask-for-information/img/undraw_building_websites_i78t.svg"
         />
+        <meta name="google-site-verification" content="bjPqT8541k9nfat3ud060DoXBi0gYi9hDB6yuvKPCW0" />
       </Head>
       <Layout title={`${siteConfig.title}`}>
         <header className={clsx("hero", styles.heroBanner)}>
