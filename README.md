@@ -1,7 +1,5 @@
 # Ask-for-information
 
-[![travis](https://api.travis-ci.com/Sh031224/ask-for-information.svg?branch=master)](https://travis-ci.com/github/Sh031224/ask-for-information/)
-
 [바로가기](https://sh031224.github.io/ask-for-information)
 
 ## 개요
@@ -13,7 +11,6 @@
 ## 동작 구조
 
 ![image](https://user-images.githubusercontent.com/51149996/118069875-ed955d80-b3df-11eb-93e4-8266f7019ed4.png)
-
 
 ## 기여자 목록
 
