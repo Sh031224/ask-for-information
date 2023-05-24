@@ -131,3 +131,26 @@ title: 백엔드
 - Linked List를 이용해 스택 메서드를 구현 (라이브 코딩)
 - Java에서 Thread-safe하게 개발하는 방법
 - Java Lock 인터페이스의 구현체 종류 및 특징 (ReentrantLock, ReadWriteLock)
+
+## 테크타카(ARGO)
+
+:::note
+면접시간: 30분
+:::
+
+- 간단 자기소개
+- HTTP METHOD (GET, POST, PUT, PATCH, DELETE)의 사전적 정의와 서버가 수행하는 동작
+- HTTP STATUS code의 200대, 400대, 500대 별 의미
+- String 리터럴과 new String의 차이
+- 동일성(```==```), 동등성(```equals```)
+- Array, List, Set, Map 의 특징들
+- Array와 List 차이점
+- List와 Set의 contains 메소드의 시간복잡도
+- hashcode를 override 하지 않고 equals만 override 했을 때 발생할 수 있는 이슈
+- HashSet, HashMap에서 hashing 충돌이 발생하게 되는 경우, 어떻게 처리되는 지 설명
+- hashing 충돌이 발생했을 때 해결하는 방법 1가지
+- 해당 알고리즘(구구단과 간단한 알고리즘)의 시간복잡도와 그 이유를 구체적으로 설명
+- ```@GenerateValue(strategy=GenerationType.IDENTITY)``` 전략으로 ID를 가진 Entity를 구성하였을 때, 엔티티에 id를 임의로 넣어서 save했을 때와 그렇지 않을 때의 차이를 구체적으로 설명
+- JPA Entity가 반드시 필연적으로 ID를 사용자 입력으로 받는다면, select 쿼리가 추가로 발생하게 되는 데 select 쿼리가 추가적으로 생기지 않도록 하는 구체적인 방법 설명
+- JPA를 사용하면서 겪은 문제와 해결방법 구체적으로 설명
+- 최근 읽거나 읽은 전공 도서
